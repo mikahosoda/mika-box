@@ -1,0 +1,633 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+
+body{
+/*overflow:hidden;*/
+}
+
+.all{
+    width:100vw;
+/*    overflow:hidden;*/
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 25px;
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #f5f5f5;
+    line-height: 3;
+    padding-left: 10px;
+    display:block;
+    width: 22vw;
+}
+
+nav #menu li{
+    list-style-type: none;
+    background-color: #78a5c1;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+nav li{
+    list-style-type: none;
+    background-color: #5e8198;
+    margin-top: 10px;
+    width: 22vw;
+    border-radius: 2px;
+}
+
+nav li:hover{
+    background-color: #455d6d;
+    color: #000;
+    transition: 0.4s;
+}
+
+.nav{
+    background-color: #f7f7f7;
+    width:25%;
+    height:100vh;
+    padding-left: 20px;
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.standard h2{
+    margin-bottom: 10px;
+}
+
+.position h2{
+    margin-bottom: 10px;
+}
+
+.introduction{
+    margin-bottom: 20px;
+}
+
+#number12 p{
+    font-size: 100px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 50px;
+/*    margin-top: -18px;*/
+}
+
+#number3 p{
+    font-size: 100px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+
+#number4 p{
+    font-size: 100px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+#detail p{
+    line-height: 1.7;
+}
+
+#rule1{
+    width: 630px;
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 45px;
+    margin-bottom: 85px;
+    border-left: 10px solid white;
+}
+
+#rule1:hover{
+    border-left: 10px solid #000;
+    border-color: #87bad9;
+    transition: 0.4s;
+}
+
+#rule1 #number p{
+    padding-top: -15px;
+}
+
+#rule2{
+    width: 630px;
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 45px;
+    margin-bottom: 85px;
+    border-left: 10px solid white;
+}
+
+#rule2:hover{
+    border-left: 10px solid #000;
+    border-color: #87bad9;
+    transition: 0.4s;
+}
+
+#rule2 #number p{
+    padding-top: -20px;
+}
+
+
+#rule3{
+    width: 630px;
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 85px;
+    border-left: 10px solid white;
+}
+
+#rule3:hover{
+    border-left: 10px solid #000;
+    border-color: #87bad9;
+    transition: 0.4s;
+}
+
+#rule3 #number p{
+    padding-top: -15px;
+}
+
+
+#rule4{
+    width: 630px;
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 85px;
+    border-left: 10px solid white;
+}
+
+#rule4:hover{
+    border-left: 10px solid #000;
+    border-color: #87bad9;
+    transition: 0.4s;
+}
+
+#rule4 #number p{
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.position img{
+    height: 280px;
+    width: 700px;
+    border-radius: 2px;
+}
+
+.pos{
+/*
+    display: flex;
+    justify-content: space-around;
+*/
+    
+    
+}
+
+.role{
+    width: 660px;
+    height: 80px;
+    background: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+.attraction{
+    margin-top: 140px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.attraction h1{
+    margin-bottom: 60px;
+}
+
+.attraction .team{
+    margin-top: -20px;
+}
+
+.attraction .audience{
+    margin-top: -30px;
+}
+
+.attraction .every h2{
+    padding: 10px;
+    color: #ecedef;
+    background: #797979;
+    width: 350px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.attraction .team h2{
+    padding: 10px;
+    color: #ecedef;
+    background: #797979;
+    width: 350px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.attraction .audience h2{
+    padding: 10px;
+    color: #ecedef;
+    background: #797979;
+    width: 350px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.title{
+}
+
+.attraction .every p{
+    width: 800px;
+    padding-bottom: 40px;
+    color: #ecedef;
+    background: #4d7a98;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.attraction .team p{
+    width: 800px;
+    padding-bottom: 40px;
+    color: #ecedef;
+    background: #4d7a98;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.attraction .audience p{
+    width: 800px;
+    padding-bottom: 40px;
+    color: #ecedef;
+    background: #4d7a98;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.name{
+    padding: 20px;
+    height: 200px;
+    width: 500px;
+    z-index: 1;
+}
+
+.name h1{
+    margin: 50px 0px;
+    margin-left: 25px;
+}
+
+.playerd:hover .movement .name{
+    padding: 20px;
+    height: 200px;
+    width: 450px;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.player{
+    padding: 20px;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    background: #dce5eb;
+    z-index: 3;
+    margin-top: -250px;
+    opacity: 0;
+    
+    
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    
+    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+    
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.playerd:hover .movement .player{
+    padding: 20px;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    background: #dce5eb;
+    z-index: 3;
+    margin-top: -250px;
+    opacity: 1;
+    
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    
+    -webkit-transition: transform 0.4s, opacity 0.1s;
+    -o-transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+
+.movement{
+    position: relative;
+    width: 450px;
+    float: left;
+}
+
+.playerabout img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+    filter: grayscale();
+    margin-top: 13px;
+}
+
+.playerabout .playerd:hover img{
+    filter: none;
+}
+
+.playerd h1{
+    font-size: 22px;
+}
+
+.playerd{
+    overflow: hidden;
+    margin: 25px 0px;
+    width: 900px;
+}
+
+
+.playerd h3{
+    margin-bottom: 10px;
+}
+
+.playerd p{
+    margin-top: 10px;
+}
+
+.player h3{
+    margin-top: 15px;
+}
+
+.animation1 .caption{
+    position: absolute;
+    background: #f5f5f5;
+    width: 640px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 2px;
+    
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+    opacity: 0;
+}
+
+.animation2 .caption{
+    position: absolute;
+    background: #f5f5f5;
+    width: 640px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 2px;
+    
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+    opacity: 0;
+}
+
+
+.animation3 .caption{
+    position: absolute;
+    background: #f5f5f5;
+    width: 640px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 2px;
+    
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+    opacity: 0;
+}
+
+.animation4 .caption{
+    position: absolute;
+    background: #f5f5f5;
+    width: 640px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 2px;
+    
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+    opacity: 0;
+}
+
+
+.animation5 .caption{
+    position: absolute;
+    background: #f5f5f5;
+    width: 640px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 2px;
+    
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+    opacity: 0;
+}
+
+
+.animation1{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+.contents1{
+    overflow: hidden;
+    height:300px;
+    width: 700px;
+    margin-top: 70px;
+/*    background-color: #97e600;*/
+}
+
+.animation2{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+.contents2{
+    overflow: hidden;
+    height:300px;
+    width: 700px;
+    margin-top: 70px;
+/*    background-color: #97e600;*/
+}
+
+
+.animation3{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+.contents3{
+    overflow: hidden;
+    height:300px;
+    width: 700px;
+    margin-top: 70px;
+/*    background-color: #97e600;*/
+}
+
+.animation4{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+.contents4{
+    overflow: hidden;
+    height:300px;
+    width: 700px;
+    margin-top: 70px;
+/*    background-color: #97e600;*/
+}
+
+.animation5{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+.contents5{
+    overflow: hidden;
+    height:300px;
+    width: 700px;
+    margin-top: 70px;
+/*    background-color: #97e600;*/
+}
+
+.animation1 img{
+    position:absolute;
+}
+
+.animation2 img{
+    position:absolute;
+}
+
+.animation3 img{
+    position:absolute;
+}
+
+.animation4 img{
+    position:absolute;
+}
+
+.animation5 img{
+    position:absolute;
+}
+
+.animation1:hover .caption{
+    -webkit-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    
+    opacity: 1;
+}
+
+.animation2:hover .caption{
+    -webkit-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    
+    opacity: 1;
+}
+
+.animation3:hover .caption{
+    -webkit-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    
+    opacity: 1;
+}
+
+.animation4:hover .caption{
+    -webkit-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    
+    opacity: 1;
+}
+
+.animation5:hover .caption{
+    -webkit-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    
+    opacity: 1;
+}
+
